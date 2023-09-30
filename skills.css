@@ -1,0 +1,145 @@
+/* Add media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  header {
+    padding: 0.5rem;
+  }
+
+  nav ul {
+    margin-left: 0; /* Remove left margin */
+    text-align: center; /* Center align navigation items */
+  }
+
+  nav ul li {
+    margin: 0.5rem 0; /* Add space between navigation items */
+  }
+
+  /* Adjust the social icons and other elements as needed */
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+
+  /* background-color: whitesmoke;*/
+  font-family: 'Baloo Bhai 2';
+}
+
+#head3 {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 240px;
+    margin-right: 80px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+    padding: 0.7em;
+    box-shadow: 0 9px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+nav ul {
+  display: inline-flex;
+  margin-left: 10px;
+
+}
+nav ul li {
+  margin-right: 1rem;
+}
+
+.menu {
+  padding: 0.5rem;
+}
+.menu:hover {
+  border: 1px solid #3545c1;
+  border-radius: 18px;
+  font-size: 1em;
+}
+
+
+
+/*SOCIAL MEDIA ICONS*/
+ .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+     margin-left: 280px;
+  }
+
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    color: #555555;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+.social-icons a:hover svg {
+    transform: scale(1.5);
+}
+
+.social-icons svg {
+    width: 20px;
+    height: 20px;
+    fill: #555555;
+
+    transition: fill 0.3s ease;
+}
+
+/*Main Styles*/
+.box{
+ display: inline-grid;
+  margin-left: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  box-shadow: 5px 5px 2px gray;
+}
+.box ul li {
+
+  margin-left: 25px;
+  list-style-type: square;
+}
+.box h3{
+  text-align: center;
+}
+.box:hover{
+  box-shadow: 10px 10px 10px darkgray;
+}
+#b1{
+   border: 2px solid blue;
+}
+#b2{
+   border: 2px solid deeppink;
+}
+
+#b3{
+   border: 2px solid green;
+}
+
+#b4{
+   border: 2px solid purple;
+}
+#b5{
+   border: 2px solid #f3ff06;
+}
+
+#b6{
+   border: 2px solid red;
+}
